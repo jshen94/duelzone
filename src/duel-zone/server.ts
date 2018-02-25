@@ -26,7 +26,7 @@ class DuelZoneCharacter extends GameScene.Character implements IHasDuelZoneChara
     constructor(name: string, width: number, height: number) {
         super(width, height);
         this.name = name;
-        this.weapons = [Shared.burstWeapon, Shared.autoWeapon, Shared.rocketWeapon];
+        this.weapons = [Shared.burstWeapon, Shared.autoWeapon, Shared.rocketWeapon, Shared.sniperWeapon];
         this.data = new DuelZoneCharacterData(name);
     }
 }
